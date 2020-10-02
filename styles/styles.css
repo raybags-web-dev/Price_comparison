@@ -4,6 +4,8 @@
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 #hd {
@@ -71,6 +73,18 @@ body {
     flex-basis: 0;
     max-width: 275px;
     border-radius: 8px;
+}
+
+section .price-column:nth-child(2):hover {
+    border: 4px solid rgb(245, 98, 98);
+}
+
+section .price-column:nth-child(1):hover {
+    border: 4px solid rgb(76, 222, 248);
+}
+
+section .price-column:nth-child(3):hover {
+    border: 4px solid rgb(76, 222, 248);
 }
 
 .price-column.popular {
