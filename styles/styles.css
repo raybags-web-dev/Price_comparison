@@ -261,8 +261,4 @@ section .price-column:nth-child(3):hover {
         max-width: 715px;
         min-width: 715px;
     }
-    #hd {
-        font-size: 40px;
-        text-decoration: none;
-    }
 }
