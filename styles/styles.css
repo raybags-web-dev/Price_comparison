@@ -217,7 +217,7 @@ section .price-column:nth-child(3):hover {
 }
 
 .feature:hover {
-    background-image: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+    background-image: linear-gradient(45deg, #fca9b4 0%, #facad0 100%);
     border-radius: 1em;
     box-shadow: 2px 2px 12px rgb(0, 0, 0, .4);
     font: 200;
